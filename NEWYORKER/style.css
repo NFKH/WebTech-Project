@@ -1,0 +1,27 @@
+.limited-margins {
+    margin: 500px; 
+  }
+
+
+.center-image {
+    display: block; 
+    margin: 0 auto; 
+  }
+
+.gray-text {
+    color: gray;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+.drop-cap::first-letter {
+    font-size: 2em; 
+    font-weight: bold; 
+    float: left; 
+    margin-right: 2px; 
+  }

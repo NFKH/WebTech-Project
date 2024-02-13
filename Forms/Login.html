@@ -9,12 +9,13 @@
 
 <body>
     <h1>Please login:</h1>
-    <form>
-        <label for="name">Insert username:</label><br>
-        <input type="text" id="name" name="name"><br>
-        <label for="pwd">Insert password:</label><br>
-  <input type="password" id="pwd" name="pwd">
-  
+    <form action="/action_page.php" method="post">
+        <label for="name">Username:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Enter your password"><br><br>
+        <input type="submit">
+        <input type="reset" value="Reset">
     </form>
 </body>
 
